@@ -65,7 +65,7 @@ db.all(`SELECT * FROM places`, function(err, rows){
 })
 */
 
-db.run(`DELETE FROM places WHERE id == ?`, [3], function(err){
+db.run(`DELETE FROM places WHERE id == ?`, [14], function(err){
     if (err){
         return console.log(err);
     }
